@@ -1,0 +1,10 @@
+reports/
+ui-startup.log
+*.log
+*.tmp
+*.pdb
+DSBot-Repair-preview.exe
+operation.lock
+.env
+.env.*
+!*.example

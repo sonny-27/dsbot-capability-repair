@@ -1,0 +1,22 @@
+DS Bot Capability Repair - local repair utility, 1.0.0
+
+Bundled components are copied from the user's installed DS Bot 0.3.1 and its already verified browser driver.
+
+yaml 2.9.1 - ISC license.
+Copyright Eemeli Aro. See vendor/yaml/LICENSE.
+Source: https://github.com/eemeli/yaml
+
+playwright-core 1.65.0 - Apache-2.0 license.
+See payload/playwright-core/LICENSE, NOTICE, and ThirdPartyNotices.txt.
+Source: https://github.com/microsoft/playwright
+
+Cua Driver 0.28.0 - MIT; native Node runtime carries MPL-2.0 notices.
+See licenses/Cua-MIT.txt and licenses/MPL-2.0.txt.
+See payload/native/node_modules/@trycua/cua-driver-win32-x64-msvc/node-runtime-NOTICE.md
+and package manifests included in payload/native.
+Source and corresponding source code for the native components:
+https://github.com/trycua/cua
+The repaired JavaScript loader and its unmodified original are included in this utility.
+The utility does not modify native binaries, app.asar, or upstream consent checks.
+
+Installed DS Bot remains subject to its own license and notices.
